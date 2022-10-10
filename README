@@ -1,0 +1,17 @@
+# Introduction
+
+Script to automate some initial setup steps.
+
+Will set up:
+
+- User configured in USERNAME
+- Add public key configured in PUBKEY
+- Disable root login
+- Add ssh-rsa so login with vscode will work
+- Add github ssh host config to ssh config file
+
+## Howto
+
+Copy the env.example file to env and fill in the USERNAME and PUBKEY parameters.
+
+Run `./setup.sh` 
