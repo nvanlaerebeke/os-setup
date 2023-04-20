@@ -1,6 +1,6 @@
 [core]
 	editor = "code --wait"
-	autocrlf = true
+	autocrlf = input
 	eol = lf
 [alias]
 	b = branch
