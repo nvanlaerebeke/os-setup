@@ -33,3 +33,5 @@
 	autoSetupRemote = true
 [rerere]
 	enabled = true
+[push]
+	autoSetupRemote = true
