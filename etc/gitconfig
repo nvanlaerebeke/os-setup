@@ -7,6 +7,7 @@
 	c = checkout
 	co = checkout
 	cm = commit
+	cp = cherry-pick
 	amend = commit --amend
 	s = status
 	prune-dry = remote prune origin --dry-run
@@ -29,9 +30,11 @@
 
 [pull]
 	rebase = true
-[push]
-	autoSetupRemote = true
+
 [rerere]
 	enabled = true
+
 [push]
 	autoSetupRemote = true
+
+
